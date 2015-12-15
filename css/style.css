@@ -345,7 +345,7 @@ ul, ol {margin: 0 0 16px 24px;}
 }
 .intro::after {
   width: 100%; height: 917px; content: ' '; position: absolute; bottom: -21%; right: -11%;
-  background: url('images/bg_hydra.png') bottom right no-repeat; display: block; opacity: 0.8;
+  background: url('./images/bg_hydra.png') bottom right no-repeat; display: block; opacity: 0.8;
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; filter: alpha(opacity=80);
 }
 
@@ -654,27 +654,27 @@ white-space: normal;}
 }
 
 a.pic1 {
-  background: url("images/bg_products01.jpg") center center no-repeat;
+  background: url("./images/bg_products01.jpg") center center no-repeat;
   background-size: cover; display: block;
 }
 a.pic2 {
-  background: url("images/bg_products02.jpg") center center no-repeat;
+  background: url("./images/bg_products02.jpg") center center no-repeat;
   background-size: cover; display: block;
 }
 a.pic3 {
-  background: url("images/bg_products03.jpg") center center no-repeat;
+  background: url("./images/bg_products03.jpg") center center no-repeat;
   background-size: cover; display: block;
 }
 a.pic4 {
-  background: url("images/bg_products04.jpg") center center no-repeat;
+  background: url("./images/bg_products04.jpg") center center no-repeat;
   background-size: cover; display: block;
 }
 a.pic5 {
-  background: url("images/bg_products05.jpg") center center no-repeat;
+  background: url("./images/bg_products05.jpg") center center no-repeat;
   background-size: cover; display: block;
 }
 a.pic6 {
-  background: url("images/bg_products06.jpg") center center no-repeat;
+  background: url("./images/bg_products06.jpg") center center no-repeat;
   background-size: cover; display: block;
 }
 
@@ -687,7 +687,7 @@ a.pic6 {
 .service-alt .picons::before {font-size: 64px; line-height: 1; text-align: center; color: #2da0e0;}
 .service-alt h4 {margin: 16px 0 24px 0; font-weight: 700;}
 
-#fun-facts {background-image: url("images/bkgs/paws.png"); background-color: #2da0e0; color: #fff;}
+#fun-facts {background-image: url("./images/bkgs/paws.png"); background-color: #2da0e0; color: #fff;}
 
 .fact {text-align: center;}
 .fact h4 {font-size: 48px; font-weight: 700;}
@@ -794,7 +794,7 @@ a.pic6 {
 ************************************/
 
 #join-now {
-  background: url('images/bg_join-now.jpg') bottom left no-repeat; display: block;
+  background: url('./images/bg_join-now.jpg') bottom left no-repeat; display: block;
   font-family: 'HelveticaNeueLT', 'Helvetica Neue LT', 'Helvetica Neue', Helvetica, Sans-Serif;
 }
 #join-now h4 {
@@ -878,7 +878,7 @@ svg {width: 50%; margin: 2em auto; display: block;}
 svg #logo {fill: #222;}
 svg #sub_header {fill: #444;}
 
-#who-we-are, #who-we-are2 {background-image: url('images/bg_aloe.jpg');}
+#who-we-are, #who-we-are2 {background-image: url('./images/bg_aloe.jpg');}
 
 #join-aloette a:hover {text-decoration: none;}
 #join-aloette a:hover h2 {color: #444;}
@@ -990,7 +990,7 @@ html[xmlns] .slides {display: block;}
 
 ************************************/
 
-#blog-page {background-image: url("images/bkgs/paws.png"); background-color: #2da0e0; color: #fff;}
+#blog-page {background-image: url("./images/bkgs/paws.png"); background-color: #2da0e0; color: #fff;}
 
 .top-header{padding:108px 0 81px 0;}
 

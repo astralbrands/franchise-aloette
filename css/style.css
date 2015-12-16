@@ -93,7 +93,6 @@ article, aside, figure, footer, header, hgroup, nav, section { position: relativ
 
 body {
   height: 100%; color: #555; background: #fff; line-height: 1.5;
-  font-family: 'Didot','Didot LT STD','Hoefler Text','Garamond','Times New Roman',serif;
   -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%;
   position: relative; overflow-x: hidden; overflow-y: scroll;
 }
@@ -388,14 +387,14 @@ ul, ol {margin: 0 0 16px 24px;}
 .img-overlay:hover a .texts p {bottom: 16px; opacity: 1;}
 
 a.badge-GS {
-  width: 4.5em; height: 4.5em; padding: 1.5em 0; border-radius: 50%; background: #b4cd95; line-height: 21px;
-  color: rgba(255,255,255,0.75); font-size: 26px; font-weight: 400; display: block; cursor: pointer;
+  width: 4.5em; height: 4.5em; padding: 1.5em 0; border-radius: 50%; background: #b4cd95; line-height: 26px;
+  color: rgba(255,255,255,0.75); font-size: 29px; font-weight: 800; display: block; cursor: pointer;
   text-transform: uppercase; text-align: center; position: fixed; top: 20%; right: 1.5%; z-index: 99;
   border: 3px solid #fff; box-shadow: 0 0 4px 1px #aaa; font-family: 'Helvetica', Sans-Serif;
-  letter-spacing: 0.05em;
+  letter-spacing: -0.02em;
 }
 a.badge-GS:hover {color: rgba(255,255,255,0.6); text-decoration: none; background: #444;}
-a.badge-GS span {font-size: 32px; font-weight: 800; color: #fff; letter-spacing: 0; display: block;}
+a.badge-GS span {font-size: 32px; color: #fff; letter-spacing: 0.04em; display: block;}
 
 
 /*************************************
@@ -666,7 +665,7 @@ a.pic6 {
   background-size: cover; display: block;
 }
 
-.service:hover {background: rgba(224,233,212,0.8);}
+.service:hover {background: rgba(255,255,255,0.8);}
 .service:hover .service-desc, .service:hover .picons::before, .service:hover h5 {color: #222;}
 .service:hover .picons::before {margin-top: 54px;}
 .service:hover .service-desc {margin-top: 32px; opacity: 1;}
@@ -716,15 +715,13 @@ a.pic6 {
   width: 250px; margin-top: 1em; margin-right: 30px; overflow: hidden; position: relative;
   border-radius: 50%; display: block; float: left;
 }
-
 .member-img-alt {float: none; margin-right: auto; margin-left: auto;}
-
+/*
 .member-img a .member-overlay {
   width: 100%; height: 100%; border-radius: 50%; position: absolute;
   text-align: center; z-index: 2; color: #fff; opacity: 0;
 }
 .member-img:hover a .member-overlay {background: rgba(72,139,64,0.85); opacity: 1;}
-
 .member-overlay h5 {
   top: 50%; position: relative; font-size: 48px; opacity: 0;
 
@@ -741,20 +738,17 @@ a.pic6 {
 .team-member h4, .member-desc h4 {margin-bottom: 24px; font-weight: 700;}
 
 .member-desc .view-more a, .member-desc .view-more a:hover {color: #212a2d; text-decoration: none;}
-
 .member-desc .view-more i {
   margin-left: 0;
-   
   -webkit-backface-visibility: hidden;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
   -ms-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
- }   
-   
+}
 .member-desc .view-more:hover i {margin-left: 10px;} 
-
+*/
 .mright {float: right; margin-right: 0; margin-left: 30px;}
 
 .mright-desc {text-align: right;}
@@ -789,7 +783,10 @@ a.pic6 {
   font-size: 26px; font-weight: 300; color: #b4cd95; text-transform: uppercase;
   letter-spacing: 0.3em; position: absolute; top: 20%; left: 12%;
 }
-#join-now h5 {font-weight: 300; letter-spacing: 0.05em; position: absolute; top: 30%; left: 18%;}
+#join-now h5 {
+  font-size: 18px; font-weight: 300; letter-spacing: 0.05em;
+  position: absolute; top: 30%; left: 16%;
+}
 #join-now form {width: 45%; display: block; float: right;}
 #join-now p {text-align: right; position: absolute; bottom: 0; right: 2%;}
 #join-now .field_block .field {margin-bottom: 5px;}
@@ -868,10 +865,9 @@ svg #sub_header {fill: #444;}
 
 #who-we-are, #who-we-are2 {background-image: url('../images/bg_aloe.jpg');}
 
+#hashtag h2.section-title {padding: 1em 0; text-transform: none; font-size: 4em; font-weight: 300;}
 #hashtag a:hover {text-decoration: none;}
 #hashtag a:hover h2 {color: #444;}
-
-#hashtag h2.section-title {padding: 1em 0;}
 
 .flexslider {
   background: rgba(255,255,255,0.8); -webkit-box-shadow: rgba(0,0,0,0.2) 0 0 4px 0;
@@ -1066,14 +1062,17 @@ aside ul {margin: 0; padding: 0; list-style: none;}
 }
 
 #aloette-faqs {
-  background: #efebe5;
+  background: #f9f7f4;
   font-family: 'HelveticaNeueLT', 'Helvetica Neue LT', 'Helvetica Neue', Helvetica, Sans-Serif;
 }
 #aloette-faqs span {font-size: 16px;}
 #aloette-faqs ul {margin-left: 5%; font-size: 1em; line-height: 1.8em;}
 #aloette-faqs h6 {margin-bottom: 1em; font-size: 1.5em; font-weight: 500; color: #333;}
 #aloette-faqs ul.faqs {margin: 2em 0 3em 0; font-size: 16px; list-style: none;}
-#aloette-faqs ul.faqs li {font-size: 18px;}
+#aloette-faqs ul.faqs li {
+  padding: 2px 0; font-size: 18px; font-style: italic;
+  font-family: 'Didot','Didot LT STD','Hoefler Text','Garamond','Times New Roman',serif;
+}
 #aloette-faqs .faq-block {margin-bottom: 4em;}
 
 

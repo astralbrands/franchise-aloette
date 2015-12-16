@@ -389,15 +389,15 @@ ul, ol {margin: 0 0 16px 24px;}
 
 .img-overlay:hover a .texts p {bottom: 16px; opacity: 1;}
 
-.badge-GS {
+a.badge-GS {
   width: 4.5em; height: 4.5em; padding: 1.5em 0; border-radius: 50%; background: #b4cd95; line-height: 21px;
   color: rgba(255,255,255,0.75); font-size: 26px; font-weight: 400; display: block; cursor: pointer;
   text-transform: uppercase; text-align: center; position: fixed; top: 20%; right: 1.5%; z-index: 99;
   border: 3px solid #fff; box-shadow: 0 0 4px 1px #aaa; font-family: 'Helvetica', Sans-Serif;
   letter-spacing: 0.05em;
 }
-.badge-GS:hover {color: rgba(255,255,255,0.6); text-decoration: none; background: #444;}
-.badge-GS span {font-size: 32px; font-weight: 800; color: #fff; letter-spacing: 0; display: block;}
+a.badge-GS:hover {color: rgba(255,255,255,0.6); text-decoration: none; background: #444;}
+a.badge-GS span {font-size: 32px; font-weight: 800; color: #fff; letter-spacing: 0; display: block;}
 
 
 /*************************************
@@ -485,10 +485,7 @@ div p:last-child {margin-bottom: 0;}
 }
 h2.light-text {font-size: 28px;}
 
-.view-more, .user-name {
-  font-family: 'HelveticaNeueLT', 'Helvetica Neue LT', 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
-  font-style: italic; font-size: 12px;
-}
+.view-more, .user-name {font-style: italic; font-size: 12px;}
 
 /*************************************
 
@@ -496,20 +493,13 @@ h2.light-text {font-size: 28px;}
 
 ************************************/
 
-.days-open{list-style:none;
-text-align:center;
-margin:0;}
-.days-open li{display:inline-block;
-margin-left:24px;
-margin-top:24px;
-font-size:12px;
-}
+.days-open {list-style: none; text-align: center; margin: 0;}
+.days-open li {display: inline-block; margin-left: 24px; margin-top: 24px; font-size: 12px;}
+.days-open li:hover {border: 2px solid #2da0e0; color: #2da0e0;}
 
-.days-open li:hover{border:2px solid #2da0e0;
-color:#2da0e0;}
-
-.btn-circle{border:2px solid #212A2D;
-border-radius: 50%;
+.btn-circle {
+  border: 2px solid #212A2D;
+  border-radius: 50%;
     height: 100px;
     padding: 0;
     width: 100px;
@@ -735,7 +725,7 @@ a.pic6 {
   width: 100%; height: 100%; border-radius: 50%; position: absolute;
   text-align: center; z-index: 2; color: #fff; opacity: 0;
 }
-.member-img:hover a .member-overlay {background: rgba(45,160,224,0.9); opacity: 1;}
+.member-img:hover a .member-overlay {background: rgba(72,139,64,0.85); opacity: 1;}
 
 .member-overlay h5 {
   top: 50%; position: relative; font-size: 48px; opacity: 0;

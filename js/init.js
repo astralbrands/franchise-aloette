@@ -16,7 +16,7 @@ $('#slides').superslides({ animation: 'fade', play: 4000 });
 
 // MENU NAVIGATION
 	
-$('.menu-nav li a[href*=#], a.btn-go[href*=#], a.badge-GS[href*=#]').click(function() {
+$('.menu-nav li a[href*=#], .faqs li a[href*=#], a.btn-go[href*=#], a.badge-GS[href*=#], a.back[href*=#]').click(function() {
 	var headerH = $('.navbar').height() - 1;
 	$("html, body").animate({
 		scrollTop: $($(this.hash)).offset().top - (headerH + 16)  + "px"

@@ -283,9 +283,7 @@ ul, ol {margin: 0 0 16px 24px;}
   transform: translate(0px, 0px);
 }
 .menu-nav ul {
-  margin: 0;
-  padding: 0;
-  width: 150px;
+  width: 150px; margin: 0; padding: 0;
   position: absolute;
   top: 30px;
   left: -16px;
@@ -870,8 +868,10 @@ svg #sub_header {fill: #444;}
 
 #who-we-are, #who-we-are2 {background-image: url('../images/bg_aloe.jpg');}
 
-#join-aloette a:hover {text-decoration: none;}
-#join-aloette a:hover h2 {color: #444;}
+#hashtag a:hover {text-decoration: none;}
+#hashtag a:hover h2 {color: #444;}
+
+#hashtag h2.section-title {padding: 1em 0;}
 
 .flexslider {
   background: rgba(255,255,255,0.8); -webkit-box-shadow: rgba(0,0,0,0.2) 0 0 4px 0;
@@ -954,7 +954,6 @@ html[xmlns] .slides {display: block;}
 .contact-info li i {color: #2DA0E0; font-size: 18px; margin-right: 18px; width: 20px;}
 
 .antispam {display: none;}
-
 
 /*flexible embeds*/
 .gmaps-widget, .video-widget{
@@ -1046,22 +1045,36 @@ aside ul {margin: 0; padding: 0; list-style: none;}
 .widget ul li:last-child {margin-bottom: 0;}
 .widgettitle {font-weight: 700; letter-spacing: 1px; margin-bottom: 24px; text-transform: uppercase;}
 
-.widget_categories ul li a, .widget_archive ul li a, .widget_recent_entries ul li a{color:#808080;}
-.widget_categories ul li a:hover, .widget_archive ul li a:hover, .widget_recent_entries ul li a:hover{color:#212a2d;
-text-decoration:none;}
+.widget_categories ul li a, .widget_archive ul li a, .widget_recent_entries ul li a {color: #808080;}
+.widget_categories ul li a:hover, .widget_archive ul li a:hover, .widget_recent_entries ul li a:hover {
+  color: #212a2d; text-decoration: none;
+}
 
-.widget_tag_cloud a{margin:0 8px 8px 0;
-padding: 5px 12px;
-display:inline-block;
-border:1px solid #d9d9d9;
-color:#808080;
-border-radius:5px;}
+.widget_tag_cloud a {
+  margin: 0 8px 8px 0;
+  padding: 5px 12px;
+  display: inline-block;
+  border: 1px solid #d9d9d9;
+  color: #808080;
+  border-radius: 5px;
+}
+.widget_tag_cloud a:hover {
+  background: #2da0e0;
+  border: 1px solid #2da0e0;
+  color: #fff;
+  text-decoration: none;
+}
 
-.widget_tag_cloud a:hover { background:#2da0e0;
-    border: 1px solid #2da0e0;
-    color: #fff;
-text-decoration:none;}
-
+#aloette-faqs {
+  background: #efebe5;
+  font-family: 'HelveticaNeueLT', 'Helvetica Neue LT', 'Helvetica Neue', Helvetica, Sans-Serif;
+}
+#aloette-faqs span {font-size: 16px;}
+#aloette-faqs ul {margin-left: 5%; font-size: 1em; line-height: 1.8em;}
+#aloette-faqs h6 {margin-bottom: 1em; font-size: 1.5em; font-weight: 500; color: #333;}
+#aloette-faqs ul.faqs {margin: 2em 0 3em 0; font-size: 16px; list-style: none;}
+#aloette-faqs ul.faqs li {font-size: 18px;}
+#aloette-faqs .faq-block {margin-bottom: 4em;}
 
 
 /*************************************
@@ -1071,7 +1084,6 @@ text-decoration:none;}
 ************************************/
 
 footer {padding: 48px 0; background-color: #111; color: #ccc;}
-
 
 .foo-copyright {font-size: 12px; word-spacing: 1px;}
 
@@ -1174,6 +1186,7 @@ MEDIA QUERIES
   .navbar-collapse {border: none; box-shadow: none; padding-left: 0;}
 
   .menu-nav {text-align: left; margin-left: 0;}
+  .menu-nav li:first-child {position: relative;}
   .menu-nav li {display: block; font-size: 16px;}
   .menu-nav > li > a {padding: 8px 0 8px 16px;}
   .menu-nav > li:hover > a {background: #2A97D3;}

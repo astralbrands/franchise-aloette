@@ -1082,33 +1082,28 @@ aside ul {margin: 0; padding: 0; list-style: none;}
 
 ************************************/
 
-footer {padding: 48px 0; background-color: #111; color: #ccc;}
-
 .foo-copyright {font-size: 12px; word-spacing: 1px;}
 
-.get-social {list-style: none; margin: 0 0 48px 0;}
-.get-social li {display: inline-block; margin-top: 16px; margin-left: 16px; font-size: 24px;}
-.get-social li a {
-  width: 50px; height: 50px; color: #fff; display: inline-block; background: #849d65;
-  line-height: 50px; border-radius: 50%; text-align: center;
+footer {padding: 48px 0; background-color: #111; color: #ccc;}
+footer .social {width: 60%; margin: 0 auto; padding: 1em 5%; text-align: center; display: block; overflow: hidden;}
+footer .social li {list-style: none; display: inline-block;}
+footer .social li a, 
+footer .social li a:visited {
+  width: 30px; margin: 0 4px; padding: 5px; font-size: 21px; background-color: #3E453A; color: #aaa;
+  text-align: center; display: inline-block; -webkit-box-sizing: content-box; -moz-box-sizing: content-box;
+  box-sizing: content-box; -webkit-border-radius: 50%; border-radius: 50%; -o-text-overflow: ellipsis;
+  text-overflow: ellipsis; -webkit-transition: all 200ms cubic-bezier(0, 0, 0, 1) 10ms;
+  -moz-transition: all 200ms cubic-bezier(0, 0, 0, 1) 10ms;
+  -o-transition: all 200ms cubic-bezier(0, 0, 0, 1) 10ms;
+  transition: all 200ms cubic-bezier(0, 0, 0, 1) 10ms;
 }
-
-.social-twitter:hover {background: #29C5F6;}
-.social-facebook:hover {background: #6788CE;}
-.social-gplus:hover {background: #E75C3C;}
-.social-linkedin:hover {background: #3A9BDC;}
-.social-pinterest:hover {background: #FE4445;}
-.social-youtube:hover {background: #E34040;}
-.social-skype:hover {background: #24B4F0;}
-
-.get-social li a:hover {color: #fff; text-decoration: none;}
-
-.share-links .get-social {margin-top: 48px; text-align: center;}
-.share-links .get-social li {font-size: 12px; text-transform: uppercase;}
-.share-links .get-social li a {
-  width: auto; height: auto; line-height: 1; padding: 16px 32px; letter-spacing: 1px; border-radius: 5px;
+footer .social li a:hover {
+  color: #444; background: #eee;
+  -webkit-transition: all 350ms cubic-bezier(0, 0, 0, .8);
+  -moz-transition: all 350ms cubic-bezier(0, 0, 0, .8);
+  -o-transition: all 350ms cubic-bezier(0, 0, 0, .8);
+  transition: all 350ms cubic-bezier(0, 0, 0, .8);
 }
-
 
 .bounce {
   -webkit-animation-name: bounce;
